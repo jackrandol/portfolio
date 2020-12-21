@@ -1,5 +1,5 @@
-import React, { useEffect, Link } from "react";
-import ComingSoonScene from "./ComingSoonScene";
+import React, { useEffect } from 'react';
+import ComingSoonScene from './ComingSoonScene';
 
 export default function Home() {
   useEffect(() => {
@@ -7,9 +7,9 @@ export default function Home() {
   }, []);
   return (
     <div>
-      <a href="http://www.github.com/jackrandol">
-        <div className="sceneX">
-          <div className="sceneY"></div>
+      <a href='http://www.github.com/jackrandol'>
+        <div className='sceneX'>
+          <div className='sceneY'></div>
         </div>
       </a>
     </div>
